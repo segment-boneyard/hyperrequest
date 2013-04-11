@@ -7,8 +7,8 @@ var server = require('./server')
 
 var s = server.createServer();
 
-var tests =
-  { testGet :
+var tests = {
+  /*{ testGet :
     { resp : server.createGetResponse("TESTING!")
     , expectBody: "TESTING!"
     }
@@ -44,8 +44,8 @@ var tests =
      { resp : server.createGetResponse('{"test":true}', 'application/json')
      , json : true
      , expectBody: {"test":true}
-     }
-  , testPutString :
+     }*/
+    testPutString :
     { resp : server.createPostValidator("PUTTINGDATA")
     , method : "PUT"
     , body : "PUTTINGDATA"
