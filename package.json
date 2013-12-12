@@ -1,6 +1,6 @@
 {
   "name": "hyperrequest",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A request wrapper over hyperquest",
   "main": "lib/index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   },
   "devDependencies": {
     "mime": "~1.2.9"
+  },
+  "publishConfig": {
+    "registry": "https://registry.segment.io"
   }
 }
