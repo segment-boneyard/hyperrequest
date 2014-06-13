@@ -20,7 +20,7 @@
   "dependencies": {
     "async": "~0.2.7",
     "defaults": "^1.0.0",
-    "extend": "git://github.com/segmentio/extend",
+    "s-extend": "git://github.com/segmentio/extend",
     "hyperquest": "git://github.com/calvinfo/hyperquest#add-getters",
     "json-stringify-safe": "~4.0.0",
     "qs": "~0.5.6"
